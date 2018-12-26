@@ -7,6 +7,8 @@ This project has been developed as a part of learning how to develope website us
 * User can access the crrent weather data of almost any city of the world by entering the city name. 
 * It will display an error message if the city name entered is incorrect.
 * Currently 10 different types of data are made available including an image-icon that reflects sky condition of the city.
+* If the input box is empty, it will display an error message in the output box.
+* A reset button placed next to submit button will refresh the window to start as new.
 
 ### Chalenges
 
