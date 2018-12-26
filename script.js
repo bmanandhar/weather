@@ -30,8 +30,8 @@ function show(data){
         "<h4>Humidity: "+data.main.humidity+"%</h4>"+
         "<h4>Temp Max: "+data.main.temp_max+"&#8457</h4>"+
         "<h4>Temp Min: "+data.main.temp_min+"&#8457</h4>"+
-        "<h4>Wind speed: "+data.wind.speed+"mile/hr</h4>"+
+        "<h4>Wind speed: "+data.wind.speed+" mile/hr</h4>"+
         "<h4>Wind direction: "+data.wind.deg+"&#176</h4>"+
-        "<h4>[ City: "+data.name+", "+data.sys.country+" ]"+"<h4>"
+        "<h4>[ "+data.name+", "+data.sys.country+" ]"+"<h4>"
         );
     };
