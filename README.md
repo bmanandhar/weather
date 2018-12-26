@@ -1,13 +1,12 @@
 ## Project name: Weather Report
 
-This project has been developed as a part of learning how to develope website using the some of the technologies that I know. The web app has been designed to render the weather report of any city that has the record with 'Open Weather Map' `https://openweathermap.org/`. I was able to access the API data by achieving an API key.
+This project has been developed as a part of learning how to develope website using some of the technologies that I know. The web app has been designed to render weather report of any city that has the record with 'Open Weather Map' `https://openweathermap.org/`. I was able to access the API data by achieving an API key.
 
 ### User story
 
-* User can access the crrent weather data of almost any city of the world by entering the city name. 
-* It will display an error message if the city name entered is incorrect.
+* User can access the crrent weather data of a city by entering the city name in the input box. 
+* It will display an error message if the input box is empty.
 * Currently 10 different types of data are made available including an image-icon that reflects sky condition of the city.
-* If the input box is empty, it will display an error message in the output box.
 * A reset button placed next to submit button will refresh the window to start as new.
 
 ### Chalenges
