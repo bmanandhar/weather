@@ -23,4 +23,4 @@ This web app may be made to show data in different measurement system such as Im
 * CSS and Bootstrap library
 * javaScript and jQuery library
 * Weather data in json format
-* AJAX GET method request
+* AJAX get() method
