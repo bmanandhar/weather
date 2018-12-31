@@ -21,18 +21,19 @@ $(document).ready(function(){
         }
     });
 });
+
 function show(data){
     return (
-        "<img src='http://openweathermap.org/img/w/"+data.weather[0].icon+".png'/>"+
-        "<h4>Weather: "+data.weather[0].main+"</h4>"+
-        "<h4>Description: "+data.weather[0].description+"</h4>"+
-        "<h4>Temperature: "+data.main.temp+"&#8457</h4>"+
-        "<h4>Pressure: "+data.main.pressure+"hPa</h4>"+
-        "<h4>Humidity: "+data.main.humidity+"%</h4>"+
-        "<h4>Temp Max: "+data.main.temp_max+"&#8457</h4>"+
-        "<h4>Temp Min: "+data.main.temp_min+"&#8457</h4>"+
-        "<h4>Wind speed: "+data.wind.speed+" mile/hr</h4>"+
-        "<h4>Wind direction: "+data.wind.deg+" &#176</h4>"+
-        "<h4>[ "+data.name+", "+data.sys.country+"]<h4>"
+        `<img style="background-color:skyblue" src='http://openweathermap.org/img/w/${data.weather[0].icon}.png'/><br>
+        <h4>Weather: ${data.weather[0].main}</h4>
+        <h4>Description: ${data.weather[0].description}</h4>
+        <h4>Temperature: ${data.main.temp} &#8457</h4>
+        <h4>Pressure: ${data.main.pressure} hPa</h4>
+        <h4>Humidity: ${data.main.humidity} %</h4>
+        <h4>Temp Max: ${data.main.temp_max} &#8457</h4>
+        <h4>Temp Min: ${data.main.temp_min} &#8457</h4>
+        <h4>Wind speed: ${data.wind.speed} mile/hr</h4>
+        <h4>Wind direction: ${data.wind.deg} &#176</h4>
+        <h4 style="color:blue">[ ${data.name}, ${data.sys.country}]<h4>`
         );
     }
