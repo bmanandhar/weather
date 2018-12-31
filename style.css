@@ -73,6 +73,10 @@
     padding: 5px;
 }
 
+.error {
+  color: red;
+}
+
 img {
     float: right;
 }

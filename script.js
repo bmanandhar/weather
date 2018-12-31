@@ -11,12 +11,12 @@ $(document).ready(function(){
             dataType: "json",
             success:function(data){
                 console.log(data);
-                var widget= show(data);
+                var widget = show(data);
                 $("#show").html(widget);
             }
         });
         } else {
-            $("#show").html("<h4><i>City name empty!<i></h4>")
+            $("#show").html("<h3 style='color:red'><i>City name empty<i></h3>")
         }
     });
 });
